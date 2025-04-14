@@ -1,0 +1,7 @@
+name: yMinasPv
+version: '${project.version}'
+main: com.ystoreplugins.yminaspv.Main
+authors: [ yChusy ]
+website: https://ystoreplugins.com.br
+depend: [ yPlugins ]
+api-version: 1.13
