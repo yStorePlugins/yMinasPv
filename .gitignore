@@ -1,223 +1,124 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+# User-specific stuff
+.idea/
 
-    <groupId>com.ystoreplugins</groupId>
-    <artifactId>yminaspackets</artifactId>
-    <version>1.3.3</version>
-    <packaging>jar</packaging>
+*.iml
+*.ipr
+*.iws
 
-    <name>yMinasPackets</name>
+# IntelliJ
+out/
 
-    <properties>
-        <java.version>1.8</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-    <url>https://ystoreplugins.com.br</url>
+# Compiled class file
+*.class
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.4</version>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                        <configuration>
-                            <createDependencyReducedPom>false</createDependencyReducedPom>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
-    </build>
+# Compiled class file
+*.java
 
-    <repositories>
-        <repository>
-            <id>spigotmc-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-            <id>sonatype</id>
-            <url>https://oss.sonatype.org/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>placeholderapi-repo</id>
-            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
-        </repository>
-        <repository>
-            <id>projectlombok.org</id>
-            <url>http://projectlombok.org/mavenrepo</url>
-        </repository>
-        <repository>
-            <id>codemc-releases</id>
-            <url>https://repo.codemc.io/repository/maven-releases/</url>
-        </repository>
-        <repository>
-            <id>codemc-snapshots</id>
-            <url>https://repo.codemc.io/repository/maven-snapshots/</url>
-        </repository>
-    </repositories>
+# Log file
+*.log
 
-    <dependencies>
-        <dependency>
-            <groupId>spigot</groupId>
-            <artifactId>Spigot</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/Spigot.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>yplugins</groupId>
-            <artifactId>yPlugins</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/yPlugins120.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>ycore</groupId>
-            <artifactId>yCore</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/yCore.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>bungeecord</groupId>
-            <artifactId>BungeeCord</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/BungeeCord.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>velocity</groupId>
-            <artifactId>Velocity</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/velocity-3.1.1-98.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.16</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>vault</groupId>
-            <artifactId>Vault</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/Vault.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>placeholderapi</groupId>
-            <artifactId>PlaceholderAPI</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/PlaceholderAPI-2.10.10.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>nchat</groupId>
-            <artifactId>nChat</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/nChat.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>ymascots</groupId>
-            <artifactId>yMascots</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/yMascots.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>ypets</groupId>
-            <artifactId>yPets</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/yPets.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>yarmorsbonus</groupId>
-            <artifactId>yArmorsBonus</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/yArmorsBonus.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>mcmmo</groupId>
-            <artifactId>mcMMO</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/mcMMO.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>wiclowmcmmo</groupId>
-            <artifactId>WiclowMcmmo</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/WiclowMcmmo.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>legendchat</groupId>
-            <artifactId>Legendchat</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/LegendChat.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>protocollib</groupId>
-            <artifactId>ProtocolLib</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/ProtocolLib.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>yminaspacketsenchantsaddon</groupId>
-            <artifactId>yMinasPacketsEnchantsAddon</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/yMinasPacketsEnchantsAddon.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>yminaspacketsantinukeraddon</groupId>
-            <artifactId>yMinasPacketsAntiNukerAddon</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/yMinasPacketsAntiNukerAddon.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>yminaspacketsdeluxeaddon</groupId>
-            <artifactId>yMinasPacketsDeluxeAddon</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>D:/APIs/yMinasPacketsDeluxeAddon.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>org.joml</groupId>
-            <artifactId>joml</artifactId>
-            <version>1.10.3</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
-</project>
+# BlueJ files
+*.ctxt
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.xml
+
+plugin.yml
+bungee.yml
+velocity.json
+paper-plugin.yml
+pom.xml
+.gitignore
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+target/
+
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
+
+# Common working directory
+run/
