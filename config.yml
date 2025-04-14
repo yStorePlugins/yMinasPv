@@ -50,6 +50,9 @@ database:
 # Recomendado: 20 ticks
 login-delay: 20
 
+# Coloque o identificador da sua skill de mineração do mcMMO ou AuraSkills
+mining-skill-identify: 'MINING'
+
 general:
   # Acumular os bônus que tiver permissão
   accumulate-bonus: false
