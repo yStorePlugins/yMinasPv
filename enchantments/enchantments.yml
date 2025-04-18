@@ -1074,3 +1074,82 @@ enchants:
           - '&f > Porcentagem Atual: &b{percentage}%&f.'
           - ''
           - '&cVocê já está no máximo.'
+
+  multiplier:
+    name: 'Multiplicador'
+    pickaxe-level: 0
+    order: 12
+    show-menu: true
+    can-buy: true
+    show-infinity: false
+    level-multiplier: 0.15
+    providers-multiplier:
+      - 'money'
+    level:
+      default: 0.0
+      maximum: 10.0
+    prices-default:
+      price1:
+        provider: 'money'
+        price: 10000.0
+    prices-per-level:
+      price1:
+        provider: 'money'
+        price: 10000.0
+    prices-disenchanter:
+      price2:
+        provider: 'money'
+        price: 100.0
+    displays:
+      can:
+        material: '5d8604b9e195367f85a23d03d9dd503638fcfb05b0032535bc43734422483bde'
+        name: '&aMultiplicador'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7ganhe mais blocos ao minerar.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{money} coins&f.'
+          - ''
+          - '&aBotão &fesquerdo &apara evoluir 1x'
+          - '&aBotão &fdireito &apara escolher a quantia de evolução'
+          - '&aBotão &fQ &apara evoluir o possível'
+      cant:
+        material: '5d8604b9e195367f85a23d03d9dd503638fcfb05b0032535bc43734422483bde'
+        name: '&aMultiplicador'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7ganhe mais blocos ao minerar.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{money} coins&f.'
+          - ''
+          - '&cVocê não tem coins suficientes.'
+      permission:
+        material: '5d8604b9e195367f85a23d03d9dd503638fcfb05b0032535bc43734422483bde'
+        name: '&aMultiplicador'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7ganhe mais blocos ao minerar.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&f > Custo: &a{money} coins&f.'
+          - ''
+          - '&cVocê não tem permissão para evoluir este.'
+      maximum:
+        material: '5d8604b9e195367f85a23d03d9dd503638fcfb05b0032535bc43734422483bde'
+        name: '&aMultiplicador'
+        lore:
+          - '&7Este encantamento permite que você'
+          - '&7ganhe mais blocos ao minerar.'
+          - ''
+          - '&f > Nível: &b{actual}&f/&b{maximum}&f.'
+          - '&f > Porcentagem Atual: &b{percentage}%&f.'
+          - ''
+          - '&cVocê já está no máximo.'
