@@ -95,6 +95,10 @@ general:
   # Esconder o encantamento na lore da picareta caso o player desative ele
   # caso esteja false, o encantamento ficará riscado na lore da picareta
   hide-deactivated: false
+  # Habilitar o menu da mina ao interagir com a mina sem shift
+  no-shift-menu: true
+  # Habilitar o menu da mina ao interagir com a mina com shift
+  shift-menu: true
 
 # Item da picareta customizada
 pickaxe:
