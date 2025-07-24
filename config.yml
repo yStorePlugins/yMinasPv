@@ -74,8 +74,12 @@ general:
   preview-distance: 7
   # Máximo de minas privadas que um jogador poderá ter
   player-max-mines: 1
+  # Ativar o sistema de limitador de amigos da mina
+  mine-limit-friends: true
+  # Quantia de amigos (padrão) que cada mina poderá ter
+  mine-default-friends: 10
   # Máximo de amigos que uma mina privada poderá ter
-  mine-max-friends: 10
+  mine-max-friends: 20
   # Habilitar o menu de evolução ao interagir com a picareta sem shift
   no-shfit-evolution: true
   # Habilitar o menu de evolução ao interagir com a picareta com shift
@@ -108,6 +112,16 @@ pickaxe:
   lore:
     - '&7Inquebrável ∞'
     - '{enchants}'
+
+# Item do slot de amigos
+friend-slot:
+  material: 'f5eafa77ffc89b1c4cb939beca1e0364a176b8f44e13be76d5d51b59fd084144'
+  name: '&b+1 Slot de Amigo &7(Mina Privada)'
+  lore:
+    - '&7Ativando este item na sua mina privada'
+    - '&7ela ira receber +1 slot para adicionar amigos.'
+    - ''
+    - '&aClique com botão direito na Mina para ativar.'
 
 # Você pode criar quantos bônus quiser
 # Será dado o bônus ao minerar.

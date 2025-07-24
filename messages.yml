@@ -59,3 +59,7 @@ chat:
   enchantment-has-level: '&cVocê não possui a quantia de &f{level}&c níveis necessários.'
   enchantment-disenchanted: '&aVocê desencantou &f{level} níveis &ado encantamento &f{enchant}&a.'
   enchantment-permission: '&cVocê não tem permissão para evoluir este encantamento.'
+  mine-slot-give: '&aVocê deu &7{amount}x slot(s) de amigos&a para o jogador &7{player}&a.'
+  mine-slot-received: '&aVocê recebeu &7{amount}x slot(s) de amigos&a.'
+  mine-slot-max: '&cEssa mina já possui a quantia máxima de slots de amigos &7({amount})&c.'
+  mine-slot-activated: '&aVocê ativou +1 slot de amigo para a mina. Atual: &f{amount}&a.'
