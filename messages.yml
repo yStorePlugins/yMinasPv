@@ -63,3 +63,7 @@ chat:
   mine-slot-received: '&aVocê recebeu &7{amount}x slot(s) de amigos&a.'
   mine-slot-max: '&cEssa mina já possui a quantia máxima de slots de amigos &7({amount})&c.'
   mine-slot-activated: '&aVocê ativou +1 slot de amigo para a mina. Atual: &f{amount}&a.'
+  skin-found: '&cEsta skin não existe. Disponíveis: &7{list}'
+  skin-give: '&bVocê deu uma skin para o jogador &f{player}&b.'
+  skin-has: '&aVocê já possui esta skin ativada.'
+  skin-activated: '&aSkin ativada com sucesso.'

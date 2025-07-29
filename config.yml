@@ -103,6 +103,13 @@ general:
   no-shift-menu: true
   # Habilitar o menu da mina ao interagir com a mina com shift
   shift-menu: true
+  # Materiais que irão ser reconhecidos na skin
+  skin-materials:
+    - 'WOOD'
+    - 'STONE'
+    - 'IRON'
+    - 'GOLD'
+    - 'DIAMOND'
 
 # Item da picareta customizada
 pickaxe:

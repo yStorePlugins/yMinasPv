@@ -183,3 +183,14 @@ friends:
         - ''
         - '&aBotão &fDIREITO&a para deletar.'
         - ''
+
+# Menu de skins
+skins:
+  name: '&8Mineração'
+  size: 36
+  slots: [ 11, 12, 13, 14, 15 ]
+  back-slot: 29
+  previous-slot: 18
+  next-slot: 26
+  items:
+    pickaxe-slot: 31
