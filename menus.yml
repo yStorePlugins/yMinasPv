@@ -99,6 +99,7 @@ evolution:
     pickaxe-slot: 47
     filter-slot: 49
     disenchanter-slot: 51
+    skin-slot: 48
     filter:
       material: HOPPER
       glow: true
@@ -116,6 +117,14 @@ evolution:
         - '&7Desencante encantamentos que não'
         - '&7queira utilizar e receba o valor'
         - '&7de volta.'
+        - ''
+        - '&aClique para acessar'
+    skin:
+      material: '731f3279fc112b7f18bd0a2229934fcb5605c62823ce698b8b503ecccf0a3ac4'
+      name: '&aSkins'
+      lore:
+        - '&7Configure a skin da sua picareta'
+        - '&7e ganhe alguns bônus.'
         - ''
         - '&aClique para acessar'
 
